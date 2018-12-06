@@ -12,10 +12,10 @@ collections:
       - file: "urls.json"
         label: "Urls"
         name: "urls"
-        editor:
-          preview: false
         fields:
           - label: "Shorten urls"
+            editor:
+              preview: false
             name: "urls"
             widget: "list"
             fields:
