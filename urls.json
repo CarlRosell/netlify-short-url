@@ -1,16 +1,16 @@
 {
   "urls": [
     {
+      "code": "*",
+      "url": "https://carlrosell.com"
+    },
+    {
       "code": "git",
       "url": "https://github.com/CarlRosell"
     },
     {
       "code": "twitter",
       "url": "https://twitter.com/carlrosell"
-    },
-    {
-      "code": "*",
-      "url": "https://carlrosell.com"
     }
   ]
 }
