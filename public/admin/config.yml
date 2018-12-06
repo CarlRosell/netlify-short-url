@@ -12,6 +12,8 @@ collections:
       - file: "urls.json"
         label: "Urls"
         name: "urls"
+        editor:
+          preview: false
         fields:
           - label: "Shorten urls"
             name: "urls"
