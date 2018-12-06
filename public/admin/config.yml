@@ -8,14 +8,14 @@ public_folder: /img
 collections:
   - name: "urls"
     label: "urls"
+    editor:
+      preview: false
     files:
       - file: "urls.json"
         label: "Urls"
         name: "urls"
         fields:
           - label: "Shorten urls"
-            editor:
-              preview: false
             name: "urls"
             widget: "list"
             fields:
