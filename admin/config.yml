@@ -1,0 +1,17 @@
+backend:
+  name: git-gateway
+  branch: master
+collections:
+  - name: "urls"
+    label: "urls"
+    files:
+      - file: "urls.json"
+        label: "Urls"
+        name: "urls"
+        fields:
+          - label: "Shorten urls"
+            name: "urls"
+            widget: "list"
+            fields:
+              - { label: Short code, name: code, widget: string }
+              - { label: Long URL, name: url, widget: string }
